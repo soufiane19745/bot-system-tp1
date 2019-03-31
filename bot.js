@@ -135,65 +135,14 @@ client.on('message', message => {
   
   
   
-   client.on("message", message => {
-    if (message.content === "-help--1") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
-   message.author.sendEmbed(embed)
-   
-   }
-   });
+
   
-   client.on("message", message => {
-    if (message.content === "-help-a") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
-   message.author.sendEmbed(embed)
-   
-   }
-   });
+
   
-     client.on("message", message => {
-    if (message.content === "-help-p") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
-   message.author.sendEmbed(embed)
-   
-   }
-   });
+
+
   
-      client.on("message", message => {
-    if (message.content === "-help-g") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
-   message.author.sendEmbed(embed)
-   
-   }
-   });
-  
-   client.on("message", message => {
-    if (message.content === "-help-m") {
-     const embed = new Discord.RichEmbed() 
-         .setThumbnail(message.author.avatarURL)
-         .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
-   message.author.sendEmbed(embed)
-   
-   }
-   });
+
   
      client.on("message", message => {
       if (message.content === "-help-a") {
@@ -401,7 +350,7 @@ client.on('message', message => {
       if (message.content === "-help-a") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *AK  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -413,7 +362,7 @@ client.on('message', message => {
       if (message.content === "-help-g") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *AK  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -425,7 +374,7 @@ client.on('message', message => {
       if (message.content === "-help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *AK  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -437,7 +386,7 @@ client.on('message', message => {
       if (message.content === "-help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By *AK  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -1131,7 +1080,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | LEGEND_YT#4537 ')
+			      .setFooter('By | AK ')
     })
 }
 });
@@ -2363,7 +2312,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : LEGEND_YT#4537 ")
+     .setFooter("By : AK ")
                                                 
 
 message.channel.send(embed);
@@ -2488,7 +2437,7 @@ var prefix = "-";
             text = co.first().content
  
               message.channel.send(`تم حفظ اقتراحك الرجاء انتضار الرد من قبل الاداره`)
-                client.channels.get("512279467977343006").send(`${message.author.username}'s sug => ${text}`)
+                client.channels.get("561739903302631427").send(`${message.author.username}'s sug => ${text}`)
  
               })
             }
@@ -2513,18 +2462,6 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 })
 
-client.on('message', message => {
-        if (message.content === "-inv") {
-            if(!message.channel.guild) return;
-        let embed = new Discord.RichEmbed()
-        .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
-        .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
-        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
-     message.channel.sendEmbed(embed);
-       }
-   });
- 
 
 client.on('message', message => {
     if(message.content.includes('discord.gg')){
