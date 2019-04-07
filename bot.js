@@ -2069,7 +2069,7 @@ var fkk =[
 
 
 client.on("guildMemberAdd", member => {
-  let welcome = member.guild.channels.find("name","اسم روم الترحيب");
+  let welcome = member.guild.channels.find("name","Welcome");
   if(!welcome) return;
   if(welcome) {
       let embed = new Discord.RichEmbed()
